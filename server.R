@@ -7,7 +7,6 @@ library(DT)
 library(readxl)
 
 # Import data
-#clean_POS_data = read_csv("clean_POS_data.csv",col_names = TRUE)
 transcriptions_data = read_csv("full_transcriptions_data.csv", col_names = TRUE)
 POS_data = read_csv("POS_data.csv", col_names = TRUE)
 speaker_data = read_excel("speaker_info.xlsx")
